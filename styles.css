@@ -3,7 +3,7 @@
 :root {
   --primary-color: #a855f7;
   --primary-color-dark: #9333ea;
-  --secondary-color: #ca8a04;
+  --secondary-color: #e39ae3;
   --text-dark: #1f2937;
   --text-light: #6b7280;
   --extra-light: #faf5ff;
@@ -106,6 +106,20 @@ ul li a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.section__container2 {
+  min-height: 100vh;
+  max-width: var(--max-width);
+  margin-top: 100px;
+  padding: 1rem;
+  gap: 4rem;
+}
+
+.content2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .subtitle {
@@ -216,17 +230,21 @@ ul li a:hover {
   .action__btns {
     margin: auto;
   }
+  
+  .text-box1 {
+    line-height: 1.5rem;
+    color: var(--text-light);
+    margin-bottom: 2rem;
+    text-align: center;
+    margin-top: 4rem;
+  }
 
-.gallery2{
-    width: 900px;
-    display:flex;
-}
-
-.gallery2 div{
-    width: 100%;
-    display:block;
-    grid-template-columns: auto auto auto;
-    grid-gap: 20px;
-    padding: 10px;
-}
+  .text-box2 {
+    line-height: 1.5rem;
+    color: var(--text-light);
+    margin-bottom: 2rem;
+    text-align: center;
+    margin-top: 4rem;
+  }
+ 
 }
